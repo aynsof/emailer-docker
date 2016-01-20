@@ -1,0 +1,9 @@
+h2 Emailed
+p  = @email
+p  = @subject
+p  = @body
+
+h2 Added to database:
+table
+  - @emails.each do |email|
+    <tr><td>#{email.sender}</td><td>#{email.recipient}</td></tr>

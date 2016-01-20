@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'slim'
+gem 'pony'
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'sinatra-contrib'
+gem 'rake'
+gem 'thin'
+gem 'require_all'
+gem 'pg'
+gem 'figaro'
