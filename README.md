@@ -17,3 +17,7 @@ docker run -p 80:80 aynsof/emailer-nginx
 postgres:
 docker build -t aynsof/postgres .
 docker run --name pg01 -p 5432:5432 aynsof/postgres
+
+varnish:
+docker build -t aynsof/emailer-varnish .
+docker run -p 6081:6081 --name emailer-varnish -d aynsof/emailer-varnish
